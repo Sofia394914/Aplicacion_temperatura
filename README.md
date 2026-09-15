@@ -1,1 +1,2 @@
-Este es un ejercicio para una tarea
+# Aplicación para la temperatura
+es una aplicación para saber como esta el clima
