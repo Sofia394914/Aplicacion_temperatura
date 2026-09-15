@@ -10,5 +10,5 @@ if temperatura < 10:
     print("Hace frio")
 elif temperatura <=10 >=24:
     print("La temperatura es agradable.")
-else:temperatura <=25:
+else temperatura <=25:
     print("Hace calor.")
