@@ -6,9 +6,10 @@ temperatura = st.number_input(
     "Introduce la temperatura en °C:",
     value=20
 )
+
 if temperatura < 10:
-    print("Hace frio")
-elif temperatura <=10 >=24:
-    print("La temperatura es agradable.")
-else temperatura <=25:
-    print("Hace calor.")
+    st.write("Hace frío")
+elif 10 <= temperatura <= 24:
+    st.write("La temperatura es agradable.")
+else:
+    st.write("Hace calor.")
